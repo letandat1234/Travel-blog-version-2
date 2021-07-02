@@ -1,1 +1,15 @@
 # Travel-blog-version-2
+Code of website Travel blog about Da Nang City (On the job training - Encalve company)
+![image](https://user-images.githubusercontent.com/52339419/124245995-b6733b00-db4a-11eb-84c6-99ed7ecdc69a.png)
+![image](https://user-images.githubusercontent.com/52339419/124246294-fdf9c700-db4a-11eb-994d-6797c197a266.png)
+![image](https://user-images.githubusercontent.com/52339419/124246349-0baf4c80-db4b-11eb-910e-b37329c4c376.png)
+![image](https://user-images.githubusercontent.com/52339419/124246404-17027800-db4b-11eb-9fe4-076abdc930e1.png)
+![image](https://user-images.githubusercontent.com/52339419/124246449-2255a380-db4b-11eb-9b94-b2998c6e3404.png)
+![image](https://user-images.githubusercontent.com/52339419/124246517-313c5600-db4b-11eb-871e-90e85b0e5c63.png)
+![image](https://user-images.githubusercontent.com/52339419/124246549-38fbfa80-db4b-11eb-9a14-6de6b239222a.png)
+![image](https://user-images.githubusercontent.com/52339419/124246682-5630c900-db4b-11eb-94f7-c066b19c28a0.png)
+![image](https://user-images.githubusercontent.com/52339419/124246720-5d57d700-db4b-11eb-9e46-2ab39c54aa86.png)
+![image](https://user-images.githubusercontent.com/52339419/124246745-63e64e80-db4b-11eb-8281-3369319ecde0.png)
+![image](https://user-images.githubusercontent.com/52339419/124246783-6cd72000-db4b-11eb-9cee-250a8fa4e61d.png)
+![image](https://user-images.githubusercontent.com/52339419/124246873-84aea400-db4b-11eb-9438-8a600aed1eb6.png)
+
