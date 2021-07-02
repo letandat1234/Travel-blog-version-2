@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>learn jQuery Mobile</title>
+    <style>
+        body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+  }
+
+  h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 7px;      
+    font-size: 20px;
+    color: #111;
+  }
+  .container {
+    padding: 80px 120px;
+  }
+  .person {
+    border: 0.5px solid transparent;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 100%;
+    opacity: 1.5;
+  }
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+    
+  
+  .carousel-inner img {
+    width: 100%; 
+    margin: auto;
+  }
+ #img1{
+  width: 1290px;
+  height: 700px;
+ margin: auto;
+ }
+  .carousel-caption h3 {
+    color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  .bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+ 
+  .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+  }
+  .modal-header, h4, .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-header, .modal-body {
+    padding: 40px 50px;
+  }
+  .nav-tabs li a {
+    color: #777;
+  }
+ 
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 2px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+    
+      .form-control {
+    border-radius: 0;
+    border-color: #777784;
+  }
+  textarea {
+    resize: none;
+  }
+</style>
+</head>
+<body>
+                                                <!--Page-1-->
+
+    <div data-role="page" id="page1">
+       
+
+        <div data-role="main" class="ui-content">
+           
+           
+                <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="blog.html">TRANG CHỦ</a></li>
+        <li><a href="#intro">GIỚI THIỆU</a></li>
+        <li><a href="#contact">LIÊN LẠC</a></li>
+      </ul>
+    
+    </div>
+    <div>
+          <ul data-role="listview" data-filter="true" data-filter-placeholder="Search fruits..." data-inset="true">
+</ul>
+    </div>
+
+  </div>
+
+
+</nav>
+
+            <div id="intro" class="container text-center">
+  <h3 style="font-family: Times New Roman; font-size: 40px;" ><b>THÀNH PHỐ ĐÀ NẴNG <b style="color: red">♥♥♥</b></b><span class="glyphicon glyphicon-heart" style="color: red"></span></h3>
+  <p><em>Chào mừng đến Đà Nẵng !</em></p>
+  <p>Đà Nẵng thành phố ĐÁNG SỐNG !
+  Thành phố Đà Nẵng thuộc miền Trung của Việt Nam nằm giữa đất nước nên rất thuận tiện cho mọi người cả miền Bắc hoặc miền Nam di chuyển đến. Với vị trí tuyệt vời và kết hợp tham quan được cả Hội An và Huế bởi thế hàng năm thu hút hàng triệu du khách trong nước cũng như quốc tế đến tham quan du lịch. Đà Nẵng gồm 6 quận lớn đó là : Quận Hải Châu, Thanh Khê, Cẩm Lệ, Sơn Trà, Ngũ Hành Sơn và Liên Chiểu. Đây là 6 quận lớn nhất của thành phố Đà Nẵng và còn ở ngoại thành là 2 huyện Hòa Vang và huyện đảo Hoàng Sa. Hiện nay Đà Nẵng đã mở rộng thêm 2 quận Hòa Xuân và Hòa Quý.</p>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Hội An</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="image/HoiAn.jpg" class="img-circle person" alt="Random Name" style=" width: 255px;  height:255px; ">
+      </a>
+      <div id="demo" class="collapse">
+        <a href="gtha.html" target="_blank" style="text-decoration: none !important; color: #555; text-align: center;s ">
+        <p>Đôi nét giới thiệu </p>
+        <p>về Phố Cổ </p>
+        <p>Hội An</p></a>
+        <a href="gtha.html" target="_blank" style="text-decoration: none !important; font-size: 15px; color: gray"><b><p><<<----- Đọc thêm ----->>></p></b></a>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Bà Nà Hills</strong></p><br>
+      <a href="#demo2" data-toggle="collapse">
+        <img src="image/Banahills.jpg" class="img-circle person" alt="Random Name" style=" width: 255px;  height:255px; ">
+      </a>
+      <div id="demo2" class="collapse">
+       <a href="gtbn.html" target="_blank" style="text-decoration: none !important; color: #555;">
+        <p>Lịch Sử Bà Nà Hill</p>
+        <p>và những điều</p>
+        <p>bí ẩn</p></a>
+        <a href="gtbn.html" target="_blank" style="text-decoration: none !important; font-size: 15px; color: gray"><b><p><<<----- Đọc thêm ----->>></p></b></a>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Núi Ngũ Hành Sơn</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="image/NguHanhSon.jpg" class="img-circle person" alt="Random Name" style=" width: 255px;  height:255px; ">
+      </a>
+      <div id="demo3" class="collapse">
+       <a href="gtnhs.html" target="_blank" style="text-decoration: none !important; color: #555;">
+        <p>Lịch sử và giới thiệu </p>
+        <p> về Danh Thắng </p>
+        <p>Ngũ Hành Sơn</p></a>
+        <a href="gtnhs.html" target="_blank" style="text-decoration: none !important; font-size: 15px; color: gray"><b><p><<<----- Đọc thêm ----->>></p></b></a>
+      </div>
+    </div>
+  </div>
+  <div data-role="header">
+            <h1>Page 1</h1>
+        </div>
+         
+            <div id="content-1">
+                <p>I Am Now A Mobile Developer!! I'm very handsome boy. But i can't find my love.</p>
+                <p>Because i'm a pỏor man. </p>
+            </div>
+<p><a href="#page2">1...</a> 
+    <a href="#page2">2...</a> 
+    <a href="#page3">3</a>
+</p>  
+</div>
+          
+
+        <div data-role="footer">
+            <h1>Footer Text</h1>
+        </div>
+    </div>
+
+                                                    <!--Page 2-->
+    <div data-role="page" id="page2">
+        <div data-role="header" data-add-back-btn="true" >
+            <h1>Page 2</h1>
+        </div>
+        <!-- /header -->
+        <div data-role="content">
+            <p>Link point
+                <a href="#page3">Page 3</a>
+            </p>
+            <p>
+                私の趣味はジョギングです。体を動かすこと自体が好きなので、ストレス発散になっています。
+                走る距離は少なくとも2km。学生時代から走りはじめ、社会人になった今でも毎朝欠かさずにジョギングしています
+            </p>
+            <p>3
+                実は取り組みはじめた当初は新鮮味があって楽しかったのですが、しばらくして社会人となり、生活リズムが変わってからは早朝に起きるのが辛い時期がありました
+                。ただ、環境が変わったからといって、一度やると決めたことを簡単に投げ出してはよくないと自分に言い聞かせたのです。
+            </p>
+                結果、根気強く取り組んだことで、環境に体が慣れていき、今もまた走ることに楽しさを感じられています。
+            </p>
+            <p>
+            <img src="https://i.pinimg.com/originals/0b/e2/1e/0be21ee8a18af49432e7bf42c532ef9a.jpg" alt="image erorr" >
+            </p>
+        </div><!-- /content -->
+        <div data-role="footer">
+            <h4>Page Footer</h4>.
+        </div>
+        <!-- /footer -->
+    </div><!-- /page -->
+                                                    <!--Page3-->
+
+    <div data-role="page" id="page3">
+        <div data-role="header" data-add-back-btn="true" >
+            <h1>Page 3</h1>
+        </div>
+        <!-- /header -->
+        <div data-role="content">
+            <a href="#page2" class="ui-btn" data-rel="back">Go Back</a>
+            <p>Test Test Code Code Example Exmple</p>
+            <p>
+                私の趣味はジョギングです。体を動かすこと自体が好きなので、ストレス発散になっています。
+                走る距離は少なくとも2km。学生時代から走りはじめ、社会人になった今でも毎朝欠かさずにジョギングしています
+            </p>
+            <p>3
+                実は取り組みはじめた当初は新鮮味があって楽しかったのですが、しばらくして社会人となり、生活リズムが変わってからは早朝に起きるのが辛い時期がありました
+                。ただ、環境が変わったからといって、一度やると決めたことを簡単に投げ出してはよくないと自分に言い聞かせたのです。
+            </p>
+            結果、根気強く取り組んだことで、環境に体が慣れていき、今もまた走ることに楽しさを感じられています。
+            </p>
+            <p>Test Test Code Code Example Exmple</p>
+            <p>Go to
+                <a href="#page1">Page 1</a>
+            </p>
+            <img src="https://anhnendep.net/wp-content/uploads/2015/07/hinh-nhat-ban-co-kinh-japan-dep-3.jpg" alt="image erorr">
+        </div><!-- /content -->
+        <div data-role="footer">
+            <h4>Page Footer</h4>
+        </div>
+        <!-- /footer -->
+    </div><!-- /page -->
+</body>
+</html>
